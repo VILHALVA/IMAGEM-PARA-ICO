@@ -55,7 +55,6 @@ Este aplicativo é uma interface gráfica simples que permite aos usuários sele
 - Entendemos que para manipular arquivos em muitas linguagens, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
 * [CURSO DE PYTHON](https://github.com/VILHALVA/CURSO-DE-PYTHON)
 * [CURSO DE TKINTER](https://github.com/VILHALVA/CURSO-DE-TKINTER)
-* [CURSO DE EXE](https://github.com/VILHALVA/CURSO-DE-EXE)
 * [SAIBA MAIS SOBRE O "REMBR"](https://github.com/danielgatis/rembg)
 * [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
 
