@@ -14,11 +14,19 @@ Este aplicativo é uma interface gráfica simples que permite aos usuários sele
 3. **Feedback de Sucesso**: Após a conclusão bem-sucedida do processo de remoção de fundo e conversão para ícone, uma caixa de diálogo é exibida informando ao usuário que o fundo foi removido e a imagem foi salva com sucesso.
 
 ## EXECUTANDO ESSE PROJETO:
-1. Certifique-se de ter as bibliotecas Pillow e rembg instaladas no seu ambiente Python. Se não tiver, você pode instalá-las usando o pip:
+1. **Instalação das Dependências::**
+   - Entre no diretório `CODIGO` e execute o comando:
+
+   ```bash
+   pip install -r requirements.txt
    ```
-   pip install pillow rembg
+
+2. Para executar o arquivo Python, utilize o comando abaixo no terminal, dentro do diretório `./CODIGO`:
+
    ```
-2. Execute o arquivo Python.
+   python CODIGO.py
+   ```
+
 3. Isso abrirá uma janela do aplicativo "IMAGEM PARA ICO".
 4. Clique no botão "SELECIONAR" para escolher a imagem da qual deseja criar o ícone.
 5. Após selecionar a imagem, clique no botão "SALVAR" para iniciar o processo de remoção do fundo e salvar a imagem como ícone.
