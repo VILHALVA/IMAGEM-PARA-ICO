@@ -37,28 +37,7 @@ Este aplicativo é uma interface gráfica simples que permite aos usuários sele
 - Desenvolvi este aplicativo porque me vi frequentemente frustrado por precisar abrir o `GIMP` apenas para converter imagens em ícones depois de remover o fundo delas. Esta solução simplificou significativamente a vida de quem necessita criar ícones para seus aplicativos.
 
 - Na verdade, este projeto é uma extensão do [REMOVEDOR DE FUNDO DE IMAGEM](https://github.com/VILHALVA/REMOVEDOR-DE-FUNDO-DE-IMAGEM). A principal distinção é que este aplicativo converte automaticamente a imagem em um ícone após remover o fundo.
-
-## SOBRE O EXECUTAVEL:
-### 1. EXECUTANDO:
-- Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `CODIGO.py`. Se desejar, você pode recompilá-lo novamente; é para isso que forneci o arquivo `imagem.ico`.
-
-### 2. GERANDO:
-   **1. Instalação do [PyInstaller:](https://pyinstaller.org/en/stable/)**
-   - Certifique-se de ter o PyInstaller instalado. Se não tiver, instale usando o comando abaixo:
-   ```bash
-   pip install pyinstaller
-   ```
-
-   **2. Gerando o Executável:**
-   - Para gerar o executável, utilize o comando `pyinstaller` seguido de opções:
-      - `--icon="imagem.ico"`: Especifica o ícone do executável.
-      - `-w`: Especifica que o executável será do tipo "windowed", ou seja, sem exibir uma janela de console.
-      - `-F`: Gera um único arquivo executável em vez de vários.
-      - `CODIGO.py`: Substitua "CODIGO.py" pelo nome do seu arquivo Python principal.
-   ```bash
-   pyinstaller --icon="imagem.ico" -w -F CODIGO.py
-   ```
-
+  
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em muitas linguagens, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
 * [CURSO DE PYTHON](https://github.com/VILHALVA/CURSO-DE-PYTHON)
